@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/saddammohd941/ansible-challange.git',
+                git url: 'https://github.com/saddammohd941/ansible-challenge.git',
                     branch: 'main'
             }
         }
